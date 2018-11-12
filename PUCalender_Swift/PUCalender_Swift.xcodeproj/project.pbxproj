@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF88CDA521915C2D00F39BBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF88CDA421915C2D00F39BBB /* AppDelegate.swift */; };
+		DF88CDA721915C2D00F39BBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF88CDA621915C2D00F39BBB /* ViewController.swift */; };
+		DF88CDAA21915C2D00F39BBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF88CDA821915C2D00F39BBB /* Main.storyboard */; };
+		DF88CDAC21915C2D00F39BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF88CDAB21915C2D00F39BBB /* Assets.xcassets */; };
+		DF88CDAF21915C2D00F39BBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF88CDAD21915C2D00F39BBB /* LaunchScreen.storyboard */; };
+		DF88CDC02191664600F39BBB /* CellAllTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = DF88CDB72191664500F39BBB /* CellAllTimes.m */; };
+		DF88CDC12191664600F39BBB /* CellCalenderEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DF88CDB82191664500F39BBB /* CellCalenderEvent.m */; };
+		DF88CDC22191664600F39BBB /* CellCalenderEvent.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF88CDBA2191664600F39BBB /* CellCalenderEvent.xib */; };
+		DF88CDC32191664600F39BBB /* CellHorizontalScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = DF88CDBB2191664600F39BBB /* CellHorizontalScroll.m */; };
+		DF88CDC42191664600F39BBB /* CellAllTimes.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF88CDBC2191664600F39BBB /* CellAllTimes.xib */; };
+		DF88CDC52191664600F39BBB /* CellHorizontalScroll.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF88CDBD2191664600F39BBB /* CellHorizontalScroll.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF88CDA121915C2D00F39BBB /* PUCalender_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PUCalender_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF88CDA421915C2D00F39BBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF88CDA621915C2D00F39BBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF88CDA921915C2D00F39BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF88CDAB21915C2D00F39BBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF88CDAE21915C2D00F39BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF88CDB021915C2D00F39BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF88CDB6219165F100F39BBB /* PUCalenderHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PUCalenderHeader.h; sourceTree = "<group>"; };
+		DF88CDB72191664500F39BBB /* CellAllTimes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellAllTimes.m; sourceTree = "<group>"; };
+		DF88CDB82191664500F39BBB /* CellCalenderEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellCalenderEvent.m; sourceTree = "<group>"; };
+		DF88CDB92191664500F39BBB /* CellHorizontalScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellHorizontalScroll.h; sourceTree = "<group>"; };
+		DF88CDBA2191664600F39BBB /* CellCalenderEvent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellCalenderEvent.xib; sourceTree = "<group>"; };
+		DF88CDBB2191664600F39BBB /* CellHorizontalScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellHorizontalScroll.m; sourceTree = "<group>"; };
+		DF88CDBC2191664600F39BBB /* CellAllTimes.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellAllTimes.xib; sourceTree = "<group>"; };
+		DF88CDBD2191664600F39BBB /* CellHorizontalScroll.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellHorizontalScroll.xib; sourceTree = "<group>"; };
+		DF88CDBE2191664600F39BBB /* CellAllTimes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellAllTimes.h; sourceTree = "<group>"; };
+		DF88CDBF2191664600F39BBB /* CellCalenderEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellCalenderEvent.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF88CD9E21915C2D00F39BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF88CD9821915C2D00F39BBB = {
+			isa = PBXGroup;
+			children = (
+				DF88CDA321915C2D00F39BBB /* PUCalender_Swift */,
+				DF88CDA221915C2D00F39BBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF88CDA221915C2D00F39BBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF88CDA121915C2D00F39BBB /* PUCalender_Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF88CDA321915C2D00F39BBB /* PUCalender_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				DF88CDA421915C2D00F39BBB /* AppDelegate.swift */,
+				DF88CDA621915C2D00F39BBB /* ViewController.swift */,
+				DF88CDA821915C2D00F39BBB /* Main.storyboard */,
+				DF88CDBE2191664600F39BBB /* CellAllTimes.h */,
+				DF88CDB72191664500F39BBB /* CellAllTimes.m */,
+				DF88CDBC2191664600F39BBB /* CellAllTimes.xib */,
+				DF88CDBF2191664600F39BBB /* CellCalenderEvent.h */,
+				DF88CDB82191664500F39BBB /* CellCalenderEvent.m */,
+				DF88CDBA2191664600F39BBB /* CellCalenderEvent.xib */,
+				DF88CDB92191664500F39BBB /* CellHorizontalScroll.h */,
+				DF88CDBB2191664600F39BBB /* CellHorizontalScroll.m */,
+				DF88CDBD2191664600F39BBB /* CellHorizontalScroll.xib */,
+				DF88CDAB21915C2D00F39BBB /* Assets.xcassets */,
+				DF88CDAD21915C2D00F39BBB /* LaunchScreen.storyboard */,
+				DF88CDB021915C2D00F39BBB /* Info.plist */,
+				DF88CDB6219165F100F39BBB /* PUCalenderHeader.h */,
+			);
+			path = PUCalender_Swift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF88CDA021915C2D00F39BBB /* PUCalender_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF88CDB321915C2D00F39BBB /* Build configuration list for PBXNativeTarget "PUCalender_Swift" */;
+			buildPhases = (
+				DF88CD9D21915C2D00F39BBB /* Sources */,
+				DF88CD9E21915C2D00F39BBB /* Frameworks */,
+				DF88CD9F21915C2D00F39BBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PUCalender_Swift;
+			productName = PUCalender_Swift;
+			productReference = DF88CDA121915C2D00F39BBB /* PUCalender_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF88CD9921915C2D00F39BBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Payal;
+				TargetAttributes = {
+					DF88CDA021915C2D00F39BBB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = DF88CD9C21915C2D00F39BBB /* Build configuration list for PBXProject "PUCalender_Swift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF88CD9821915C2D00F39BBB;
+			productRefGroup = DF88CDA221915C2D00F39BBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF88CDA021915C2D00F39BBB /* PUCalender_Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF88CD9F21915C2D00F39BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF88CDC42191664600F39BBB /* CellAllTimes.xib in Resources */,
+				DF88CDAF21915C2D00F39BBB /* LaunchScreen.storyboard in Resources */,
+				DF88CDC52191664600F39BBB /* CellHorizontalScroll.xib in Resources */,
+				DF88CDAC21915C2D00F39BBB /* Assets.xcassets in Resources */,
+				DF88CDC22191664600F39BBB /* CellCalenderEvent.xib in Resources */,
+				DF88CDAA21915C2D00F39BBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF88CD9D21915C2D00F39BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF88CDC02191664600F39BBB /* CellAllTimes.m in Sources */,
+				DF88CDA721915C2D00F39BBB /* ViewController.swift in Sources */,
+				DF88CDC12191664600F39BBB /* CellCalenderEvent.m in Sources */,
+				DF88CDC32191664600F39BBB /* CellHorizontalScroll.m in Sources */,
+				DF88CDA521915C2D00F39BBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF88CDA821915C2D00F39BBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF88CDA921915C2D00F39BBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF88CDAD21915C2D00F39BBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF88CDAE21915C2D00F39BBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF88CDB121915C2D00F39BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF88CDB221915C2D00F39BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF88CDB421915C2D00F39BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PUCalender_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.checkmateinc.pucalenderswift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/payal/Desktop/PUCalender_Swift/PUCalender_Swift/PUCalenderHeader.h;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF88CDB521915C2D00F39BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PUCalender_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.checkmateinc.pucalenderswift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/payal/Desktop/PUCalender_Swift/PUCalender_Swift/PUCalenderHeader.h;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF88CD9C21915C2D00F39BBB /* Build configuration list for PBXProject "PUCalender_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF88CDB121915C2D00F39BBB /* Debug */,
+				DF88CDB221915C2D00F39BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF88CDB321915C2D00F39BBB /* Build configuration list for PBXNativeTarget "PUCalender_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF88CDB421915C2D00F39BBB /* Debug */,
+				DF88CDB521915C2D00F39BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF88CD9921915C2D00F39BBB /* Project object */;
+}
