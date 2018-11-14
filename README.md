@@ -1,6 +1,6 @@
 # HorizontalTimesLayout-Swift
 
-### A SWIFT version of # HorizontalTimesLayout - https://github.com/PayalUmraliya/HorizontalTimesLayout
+#### A SWIFT version of # HorizontalTimesLayout - https://github.com/PayalUmraliya/HorizontalTimesLayout
 
 [![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/PayalUmraliya/HorizontalTimesLayout/blob/master/LICENSE)
 
