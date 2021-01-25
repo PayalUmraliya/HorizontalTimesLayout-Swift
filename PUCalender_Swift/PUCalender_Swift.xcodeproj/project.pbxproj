@@ -7,20 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88C5F5C925BE9854001C86AA /* CellAllTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5F5C125BE9854001C86AA /* CellAllTimes.m */; };
+		88C5F5CA25BE9854001C86AA /* CellAllTimes.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C5F5C225BE9854001C86AA /* CellAllTimes.xib */; };
+		88C5F5CB25BE9854001C86AA /* CellCalenderEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5F5C425BE9854001C86AA /* CellCalenderEvent.m */; };
+		88C5F5CC25BE9854001C86AA /* CellCalenderEvent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C5F5C525BE9854001C86AA /* CellCalenderEvent.xib */; };
+		88C5F5CD25BE9854001C86AA /* CellHorizontalScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5F5C725BE9854001C86AA /* CellHorizontalScroll.m */; };
+		88C5F5CE25BE9854001C86AA /* CellHorizontalScroll.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C5F5C825BE9854001C86AA /* CellHorizontalScroll.xib */; };
 		DF88CDA521915C2D00F39BBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF88CDA421915C2D00F39BBB /* AppDelegate.swift */; };
 		DF88CDA721915C2D00F39BBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF88CDA621915C2D00F39BBB /* ViewController.swift */; };
 		DF88CDAA21915C2D00F39BBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF88CDA821915C2D00F39BBB /* Main.storyboard */; };
 		DF88CDAC21915C2D00F39BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF88CDAB21915C2D00F39BBB /* Assets.xcassets */; };
 		DF88CDAF21915C2D00F39BBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF88CDAD21915C2D00F39BBB /* LaunchScreen.storyboard */; };
-		DF88CDC02191664600F39BBB /* CellAllTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = DF88CDB72191664500F39BBB /* CellAllTimes.m */; };
-		DF88CDC12191664600F39BBB /* CellCalenderEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DF88CDB82191664500F39BBB /* CellCalenderEvent.m */; };
-		DF88CDC22191664600F39BBB /* CellCalenderEvent.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF88CDBA2191664600F39BBB /* CellCalenderEvent.xib */; };
-		DF88CDC32191664600F39BBB /* CellHorizontalScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = DF88CDBB2191664600F39BBB /* CellHorizontalScroll.m */; };
-		DF88CDC42191664600F39BBB /* CellAllTimes.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF88CDBC2191664600F39BBB /* CellAllTimes.xib */; };
-		DF88CDC52191664600F39BBB /* CellHorizontalScroll.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF88CDBD2191664600F39BBB /* CellHorizontalScroll.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88C5F5C025BE9854001C86AA /* CellAllTimes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellAllTimes.h; sourceTree = "<group>"; };
+		88C5F5C125BE9854001C86AA /* CellAllTimes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellAllTimes.m; sourceTree = "<group>"; };
+		88C5F5C225BE9854001C86AA /* CellAllTimes.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellAllTimes.xib; sourceTree = "<group>"; };
+		88C5F5C325BE9854001C86AA /* CellCalenderEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellCalenderEvent.h; sourceTree = "<group>"; };
+		88C5F5C425BE9854001C86AA /* CellCalenderEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellCalenderEvent.m; sourceTree = "<group>"; };
+		88C5F5C525BE9854001C86AA /* CellCalenderEvent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellCalenderEvent.xib; sourceTree = "<group>"; };
+		88C5F5C625BE9854001C86AA /* CellHorizontalScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellHorizontalScroll.h; sourceTree = "<group>"; };
+		88C5F5C725BE9854001C86AA /* CellHorizontalScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellHorizontalScroll.m; sourceTree = "<group>"; };
+		88C5F5C825BE9854001C86AA /* CellHorizontalScroll.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellHorizontalScroll.xib; sourceTree = "<group>"; };
 		DF88CDA121915C2D00F39BBB /* PUCalender_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PUCalender_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF88CDA421915C2D00F39BBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF88CDA621915C2D00F39BBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,15 +38,6 @@
 		DF88CDAE21915C2D00F39BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF88CDB021915C2D00F39BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF88CDB6219165F100F39BBB /* PUCalenderHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PUCalenderHeader.h; sourceTree = "<group>"; };
-		DF88CDB72191664500F39BBB /* CellAllTimes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellAllTimes.m; sourceTree = "<group>"; };
-		DF88CDB82191664500F39BBB /* CellCalenderEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellCalenderEvent.m; sourceTree = "<group>"; };
-		DF88CDB92191664500F39BBB /* CellHorizontalScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellHorizontalScroll.h; sourceTree = "<group>"; };
-		DF88CDBA2191664600F39BBB /* CellCalenderEvent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellCalenderEvent.xib; sourceTree = "<group>"; };
-		DF88CDBB2191664600F39BBB /* CellHorizontalScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellHorizontalScroll.m; sourceTree = "<group>"; };
-		DF88CDBC2191664600F39BBB /* CellAllTimes.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellAllTimes.xib; sourceTree = "<group>"; };
-		DF88CDBD2191664600F39BBB /* CellHorizontalScroll.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellHorizontalScroll.xib; sourceTree = "<group>"; };
-		DF88CDBE2191664600F39BBB /* CellAllTimes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellAllTimes.h; sourceTree = "<group>"; };
-		DF88CDBF2191664600F39BBB /* CellCalenderEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellCalenderEvent.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +51,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88C5F5BF25BE9854001C86AA /* customecells */ = {
+			isa = PBXGroup;
+			children = (
+				88C5F5C025BE9854001C86AA /* CellAllTimes.h */,
+				88C5F5C125BE9854001C86AA /* CellAllTimes.m */,
+				88C5F5C225BE9854001C86AA /* CellAllTimes.xib */,
+				88C5F5C325BE9854001C86AA /* CellCalenderEvent.h */,
+				88C5F5C425BE9854001C86AA /* CellCalenderEvent.m */,
+				88C5F5C525BE9854001C86AA /* CellCalenderEvent.xib */,
+				88C5F5C625BE9854001C86AA /* CellHorizontalScroll.h */,
+				88C5F5C725BE9854001C86AA /* CellHorizontalScroll.m */,
+				88C5F5C825BE9854001C86AA /* CellHorizontalScroll.xib */,
+			);
+			path = customecells;
+			sourceTree = "<group>";
+		};
 		DF88CD9821915C2D00F39BBB = {
 			isa = PBXGroup;
 			children = (
@@ -70,18 +86,10 @@
 		DF88CDA321915C2D00F39BBB /* PUCalender_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				88C5F5BF25BE9854001C86AA /* customecells */,
 				DF88CDA421915C2D00F39BBB /* AppDelegate.swift */,
 				DF88CDA621915C2D00F39BBB /* ViewController.swift */,
 				DF88CDA821915C2D00F39BBB /* Main.storyboard */,
-				DF88CDBE2191664600F39BBB /* CellAllTimes.h */,
-				DF88CDB72191664500F39BBB /* CellAllTimes.m */,
-				DF88CDBC2191664600F39BBB /* CellAllTimes.xib */,
-				DF88CDBF2191664600F39BBB /* CellCalenderEvent.h */,
-				DF88CDB82191664500F39BBB /* CellCalenderEvent.m */,
-				DF88CDBA2191664600F39BBB /* CellCalenderEvent.xib */,
-				DF88CDB92191664500F39BBB /* CellHorizontalScroll.h */,
-				DF88CDBB2191664600F39BBB /* CellHorizontalScroll.m */,
-				DF88CDBD2191664600F39BBB /* CellHorizontalScroll.xib */,
 				DF88CDAB21915C2D00F39BBB /* Assets.xcassets */,
 				DF88CDAD21915C2D00F39BBB /* LaunchScreen.storyboard */,
 				DF88CDB021915C2D00F39BBB /* Info.plist */,
@@ -149,11 +157,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF88CDC42191664600F39BBB /* CellAllTimes.xib in Resources */,
+				88C5F5CA25BE9854001C86AA /* CellAllTimes.xib in Resources */,
 				DF88CDAF21915C2D00F39BBB /* LaunchScreen.storyboard in Resources */,
-				DF88CDC52191664600F39BBB /* CellHorizontalScroll.xib in Resources */,
+				88C5F5CE25BE9854001C86AA /* CellHorizontalScroll.xib in Resources */,
 				DF88CDAC21915C2D00F39BBB /* Assets.xcassets in Resources */,
-				DF88CDC22191664600F39BBB /* CellCalenderEvent.xib in Resources */,
+				88C5F5CC25BE9854001C86AA /* CellCalenderEvent.xib in Resources */,
 				DF88CDAA21915C2D00F39BBB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,10 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF88CDC02191664600F39BBB /* CellAllTimes.m in Sources */,
+				88C5F5C925BE9854001C86AA /* CellAllTimes.m in Sources */,
 				DF88CDA721915C2D00F39BBB /* ViewController.swift in Sources */,
-				DF88CDC12191664600F39BBB /* CellCalenderEvent.m in Sources */,
-				DF88CDC32191664600F39BBB /* CellHorizontalScroll.m in Sources */,
+				88C5F5CB25BE9854001C86AA /* CellCalenderEvent.m in Sources */,
+				88C5F5CD25BE9854001C86AA /* CellHorizontalScroll.m in Sources */,
 				DF88CDA521915C2D00F39BBB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,7 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.checkmateinc.pucalenderswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/payal/Desktop/PUCalender_Swift/PUCalender_Swift/PUCalenderHeader.h;
+				SWIFT_OBJC_BRIDGING_HEADER = PUCalender_Swift/PUCalenderHeader.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -330,7 +338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.checkmateinc.pucalenderswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/payal/Desktop/PUCalender_Swift/PUCalender_Swift/PUCalenderHeader.h;
+				SWIFT_OBJC_BRIDGING_HEADER = PUCalender_Swift/PUCalenderHeader.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
