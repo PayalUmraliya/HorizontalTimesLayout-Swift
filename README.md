@@ -15,12 +15,7 @@ PROJECT CONTAINS IDEA TO DEVELOP A CALENDAR TYPE LAYOUT USING TABLEVIEW IN WHICH
 
 <img src="https://github.com/PayalUmraliya/HorizontalTimesLayout/blob/master/pucalender.gif" width="320" height="564"/>
 
-###### LICENSE
-
-[The MIT License](LICENSE)
-
-
-###### USAGE
+### USAGE
 
 ````
 func prepareStatusDic() 
@@ -38,6 +33,7 @@ Above method will add event with different color in cell
 let arr = ["1:40", "2:40", "DJ-IL", "1"]
 ````
 ###### Array Element
+
 * 1 - start time
 * 2 - End time
 * 3 - Text to display on event
@@ -110,4 +106,15 @@ func cellSelected(_ sender: Any?) {
 
 ###### This project required bridging header file to use objc files in swift code
 
-:)
+
+### LICENSE
+
+[The MIT License](LICENSE)
+
+Copyright (c) 2021 TheKarma
+
+### Author
+
+Payal Umraliya [behappy78600@gmail.com]
+
+ツツツツツツ
